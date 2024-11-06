@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: postgre
-  namespace: argocd
+  namespace: postgre
 spec:
   destination:
     namespace: postgre
