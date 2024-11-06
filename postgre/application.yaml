@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: postgre
-    repoURL: git@github.com:hozun/argo.git
+    repoURL: https://github.com/hozun/argo.git
     targetRevision: HEAD
   syncPolicy:
     automated:
