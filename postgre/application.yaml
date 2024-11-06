@@ -11,7 +11,7 @@ spec:
   source:
     path: postgre
     repoURL: https://github.com/hozun/argo.git
-    targetRevision: HEAD
+    targetRevision: main
   syncPolicy:
     automated:
       selfHeal: true
