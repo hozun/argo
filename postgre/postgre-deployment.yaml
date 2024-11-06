@@ -16,5 +16,8 @@ spec:
       containers:
       - image: bitnami/postgresql
         name: postgre
+        env:
+          - name: ALLOW_EMPTY_PASSWORD
+            value: "yes"
         ports:
         - containerPort: 5432
